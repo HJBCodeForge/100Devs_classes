@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(46, 46, 46);
+}
+
+@media screen and (min-width: 900px) {
+    header{
+        margin-top: 50px;
+        clear: both;
+    }
+    header > *{
+        float: left;
+        width: 10%;
+        margin: 0 8%;
+        width: 16.666%;
+    }
+    header ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    header nav li {
+        float: left;
+        width: 25%;
+        font-size: 0.7rem;
+    }
+    main {
+        padding: 50px;
+        clear: both;
+    }
+    main > section {
+        width: 50%;
+        float: left;
+    }
+    main > section > img {
+        float: right;
+    }
+    section > section {
+        margin-top: 50px;
+        width: 25%;
+        float: left;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    header ul {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    section > section {
+        margin-top: 50px;
+    }
+    header nav ul {
+        width: 100%;
+    }
+    header nav li {
+        float: left;
+        font-size: 0.7rem;
+    }
+}

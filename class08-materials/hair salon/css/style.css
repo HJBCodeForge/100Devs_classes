@@ -1,0 +1,200 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*************************
+Main Content
+*************************/
+
+header {
+  height: 100px;
+  text-align: center;
+  align-content: center;
+  padding: 10px;
+}
+header h3 {
+  float: left;
+  padding: 10px 100px 0 50px;
+  font-family: Apple Chancery, serif;
+  font-size: 1.2rem;
+}
+header nav {
+  margin-top: 10px;
+}
+header ul {
+  list-style: none;
+}
+header li {
+  float: left;
+  padding: 0 20px;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+header span {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+main *{
+  display: block;
+  color: white;
+  text-transform: uppercase;
+}
+main {
+  width: 100%;
+  height: 612px;
+  background-image: url(../images/multicolorhair.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+main h1 {
+  width: 459px;
+  font-size: 4rem;
+  font-weight:lighter;
+  margin-left: 80px;
+}
+main p {
+  color: white;
+  font-size: 0.8rem;
+  width: 459px;
+  margin-left: 80px;
+}
+main a {
+  display: inline-block;
+  background-color: black;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 0.7rem;
+  text-decoration: none;
+  margin-left: 80px;
+}
+main section {
+  width: 170px;
+  height: 190px;
+  background-color: black;
+  margin-left: 80px;
+}
+
+main section em {
+  display: inline;
+  font-size: 1.3rem;
+  font-weight: 600;
+  padding-left: 10px;
+}
+
+body main section p {
+  display: inline;
+  margin-left: 10px;
+  width: 100%;
+}
+
+main > section > a {
+  margin-left: 10px;
+  background-color: white;
+  color: black;
+  margin-top: 50px;
+}
+main span {
+  display: block;
+  width: 200px;
+  height: 50px;
+  float: right;
+  transform: rotate(90deg);
+  font-size: 0.8rem;
+  margin: 0 620px 0 0;
+}
+body > section {
+  display: block;
+  height: 200px;
+  width: 50%;
+  margin: 50px 0 50px 50px;
+}
+body > section > section {
+  display: block;
+  float: left;
+  width: 33.333%;
+  text-align: center;
+}
+body section section h3 {
+  font-size: 0.8rem;
+}
+body section section p {
+  font-size: 0.6rem;
+}
+body > section + section {
+  display: block;
+  width: 100%;
+  background-color: rgb(234, 234, 234);
+}
+body > section + section > section {
+  display: block;
+  text-align: left;
+  margin-top: 20px;
+}
+body > section + section > section h2 {
+  font-size: 1.2rem;
+  width: 50%;
+}
+body > section + section > section p {
+  font-size: 0.8rem;
+  width: 40%;
+}
+body > section + section > section img {
+  width: 50%;
+}
+section a {
+    display: inline-block;
+    background-color: black;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 0.7rem;
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+

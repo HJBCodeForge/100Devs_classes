@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    border: 3px solid black;
+    height: 100px;
+    clear: both;
+}
+footer {
+    border: 3px solid black;
+    height: 100px;
+    clear: both;
+}
+section {
+    border: 3px solid black;
+    height: 200px;
+    width: 100%;
+}
+.one3rdbox {
+    border: 3px solid black;
+    height: 300px;
+    width: 33.333%;
+    float: left;
+}
+.two3rdbox {
+    border: 3px solid black;
+    height: 300px;
+    width: 66.666%;
+    float: right;
+}
