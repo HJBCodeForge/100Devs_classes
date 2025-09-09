@@ -141,8 +141,8 @@ async function getACuteDogPhoto(){
     const data = await res.json()
     document.querySelector('img').src = data.message
     console.log(data)
-    } catch (parseError){
-        console.log('Error parsing JSON:', parseError)
+    } catch (error){
+        console.log('Error parsing JSON:', error)
     }
 }
 getACuteDogPhoto()
