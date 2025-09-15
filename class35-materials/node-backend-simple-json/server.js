@@ -23,7 +23,7 @@ const server = http.createServer((req, res) => {
       readWrite('index.html', 'text/html')
     break
     case '/otherpage':
-      eadWrite('otherpage.html', 'text/html')
+      readWrite('otherpage.html', 'text/html')
     break
     case '/otherotherpage':
       readWrite('otherotherpage.html', 'text/html')
@@ -35,7 +35,7 @@ const server = http.createServer((req, res) => {
       }//student = leon
       res.writeHead(200, {'Content-Type': 'application/json'});
         const objToJson = {
-          name: flipResults,
+          coin: flipResults,
       }
       res.end(JSON.stringify(objToJson));
     break
